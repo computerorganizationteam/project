@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2017-11-21T13:10:12</DateModified>
+  <DateModified>2017-11-22T22:52:10</DateModified>
   <ModuleName>Control</ModuleName>
   <SummaryTimeStamp>2017-11-21T13:08:02</SummaryTimeStamp>
-  <SavedFilePath>E:/project/CPUproject/iseconfig/Control.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>E:/project/CPUproject\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/p/cpu/CPUproject/iseconfig/Control.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/p/cpu/CPUproject\</ImplementationReportsDirectory>
   <DateInitialized>2017-11-20T10:16:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
