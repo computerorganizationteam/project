@@ -92,7 +92,7 @@ package common is
 	  constant REG_PC  		 : std_logic_vector(3 downto 0) := "1100";
 	  constant REG_EMPTY		 : std_logic_vector(3 downto 0) := "1111";
 	  
-	  
+	  constant I_NOP         : std_logic_vector(15 downto 0) := "0000100000000000";
 end common;
 
 package body common is
