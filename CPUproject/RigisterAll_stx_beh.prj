@@ -1,0 +1,2 @@
+vhdl isim_temp "common.vhd"
+vhdl isim_temp "RigisterAll.vhd"
