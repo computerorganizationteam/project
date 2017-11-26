@@ -30,6 +30,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 package common is
+	  constant ZERO : std_logic_vector(15 downto 0) := "0000000000000000";
 
 	  -- instruction op 
 	  constant I_ADDIU       : std_logic_vector(4 downto 0) := "01001";
@@ -85,18 +86,26 @@ package common is
 	  constant ALU_NULL		 : std_logic_vector(3 downto 0) := "1111";
 	  
 	  -- registers
-	  constant REG_SP		    : std_logic_vector(3 downto 0) := "1000";
+	  constant REG_SP		 : std_logic_vector(3 downto 0) := "1000";
 	  constant REG_IH 		 : std_logic_vector(3 downto 0) := "1001";
 	  constant REG_RA  		 : std_logic_vector(3 downto 0) := "1010";
 	  constant REG_T  		 : std_logic_vector(3 downto 0) := "1011";
 	  constant REG_PC  		 : std_logic_vector(3 downto 0) := "1100";
 	  constant REG_EMPTY		 : std_logic_vector(3 downto 0) := "1111";
+<<<<<<< HEAD
+	  constant REG_REGNUM 		 : integer := 15;
+	  
+=======
 	  
 	  constant I_NOP         : std_logic_vector(15 downto 0) := "0000100000000000";
+<<<<<<< HEAD
 	  
 	  -- ram1 port
 	  constant PORT_STATUS	 : std_logic_vector(15 downto 0) := "1011111100000001"; -- BF01
 	  constant PORT_DATA     : std_logic_vector(15 downto 0) := "1011111100000000"; -- BF00
+=======
+>>>>>>> 2a98f33e55b0d8bc9d4eedf1e348828af5aebd7c
+>>>>>>> 2a1865cf8ff965a23afb798e3e6a3fab2921a786
 end common;
 
 package body common is

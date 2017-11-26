@@ -1,11 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
+<<<<<<< HEAD
   <DateModified>2017-11-26T12:39:48</DateModified>
+=======
+<<<<<<< HEAD
+  <DateModified>2017-11-25T14:24:44</DateModified>
+  <ModuleName>Control</ModuleName>
+  <SummaryTimeStamp>2017-11-23T14:41:06</SummaryTimeStamp>
+  <SavedFilePath>C:/Users/wangshiyuan/cpu/project/CPUproject/iseconfig/Control.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/wangshiyuan/cpu/project/CPUproject\</ImplementationReportsDirectory>
+=======
+  <DateModified>2017-11-24T22:45:19</DateModified>
+>>>>>>> 2a1865cf8ff965a23afb798e3e6a3fab2921a786
   <ModuleName>Control</ModuleName>
   <SummaryTimeStamp>2017-11-24T18:37:38</SummaryTimeStamp>
   <SavedFilePath>E:/project/CPUproject/iseconfig/Control.xreport</SavedFilePath>
   <ImplementationReportsDirectory>E:/project/CPUproject\</ImplementationReportsDirectory>
+>>>>>>> 2a98f33e55b0d8bc9d4eedf1e348828af5aebd7c
   <DateInitialized>2017-11-20T10:16:28</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

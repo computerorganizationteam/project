@@ -1,0 +1,28 @@
+Command line:
+   RigisterAll_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49175
+
+Sat Nov 25 14:52:33 2017
+
+
+ Elaboration Time: 0.265203 sec
+
+ Current Memory Usage: 671.908 Meg
+
+ Total Signals          : 21
+ Total Nets             : 495
+ Total Signal Drivers   : 13
+ Total Blocks           : 5
+ Total Primitive Blocks : 5
+ Total Processes        : 13
+ Total Traceable Variables  : 64
+ Total Scalar Nets and Variables : 1102
+
+ Total Simulation Time: 0.327603 sec
+
+ Current Memory Usage: 671.908 Meg
+
+Sat Nov 25 14:52:40 2017
+
