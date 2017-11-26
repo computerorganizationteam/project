@@ -93,6 +93,10 @@ package common is
 	  constant REG_EMPTY		 : std_logic_vector(3 downto 0) := "1111";
 	  
 	  constant I_NOP         : std_logic_vector(15 downto 0) := "0000100000000000";
+	  
+	  -- ram1 port
+	  constant PORT_STATUS	 : std_logic_vector(15 downto 0) := "1011111100000001"; -- BF01
+	  constant PORT_DATA     : std_logic_vector(15 downto 0) := "1011111100000000"; -- BF00
 end common;
 
 package body common is
