@@ -48,17 +48,17 @@ architecture Behavioral of Forwarding is
 begin
 	process (RegWrite, RegWriteDst, RegWrite_Mem, MemtoReg, RegWriteDst_Mem, DestRegA, DestRegB)
 	begin
-		if RegWrite_Mem = '1' and MemtoReg = '1' and RegWriteDst_Mem = DestRegA then
-			opAForward <= "10";
-		elsif RegWrite = '1' and RegWriteDst = DestRegA then
+		if RegWrite = '1' and RegWriteDst = DestRegA then
 			opAForward <= "01";
+		elsif RegWrite_Mem = '1' and MemtoReg = '1' and RegWriteDst_Mem = DestRegA then
+			opAForward <= "10";
 		else
 			opAForward <= "00";
 		end if;
-		if RegWrite_Mem = '1' and MemtoReg = '1' and RegWriteDst_Mem = DestRegB then
-			opBForward <= "10";
-		elsif RegWrite = '1' and RegWriteDst = DestRegB then
+		if RegWrite = '1' and RegWriteDst = DestRegB then
 			opBForward <= "01";
+		elsif RegWrite_Mem = '1' and MemtoReg = '1' and RegWriteDst_Mem = DestRegB then
+			opBForward <= "10";
 		else
 			opAForward <= "00";
 		end if;
